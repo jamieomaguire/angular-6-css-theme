@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "css-vars-scss-app": {
+    "angular-6-css-theme": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/css-vars-scss-app",
+            "outputPath": "dist/angular-6-css-theme",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "css-vars-scss-app:build"
+            "browserTarget": "angular-6-css-theme:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "css-vars-scss-app:build:production"
+              "browserTarget": "angular-6-css-theme:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "css-vars-scss-app:build"
+            "browserTarget": "angular-6-css-theme:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "css-vars-scss-app-e2e": {
+    "angular-6-css-theme-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "css-vars-scss-app:serve"
+            "devServerTarget": "angular-6-css-theme:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "css-vars-scss-app:serve:production"
+              "devServerTarget": "angular-6-css-theme:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "css-vars-scss-app"
+  "defaultProject": "angular-6-css-theme"
 }
