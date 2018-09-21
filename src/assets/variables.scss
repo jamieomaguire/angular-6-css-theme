@@ -1,0 +1,9 @@
+// SCSS variables reference CSS custom properties will not be compiled down to colours.
+// Rather, they will remain as CSS custom properties in the browser and therefore will not require the SCSS to be recompiled.
+
+$primaryColour: var(--primary-colour, pink);
+$secondaryColour: var(--secondary-colour, purple);
+$fontColour: var(--font-colour, white);
+$tertiaryColour: var(--tertiary-colour);
+$borderDark: var(--border-dark);
+$borderLight: var(--border-light);

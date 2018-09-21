@@ -1,0 +1,24 @@
+// The CSS custom properties are globally accessible from the :root context
+@import '../assets/variables';
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    color: $fontColour;
+    border: 1px $borderDark solid;
+}
+
+.box1 {
+    background-color: $primaryColour;
+}
+
+.box2 {
+    background-color: $secondaryColour;
+    border: 1px $borderLight solid;
+}
+
+.box3 {
+    background-color: $tertiaryColour;
+}
